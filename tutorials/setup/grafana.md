@@ -4,8 +4,8 @@ To set up grafana, we will use the official grafana docker image. We will also u
 
 ```bash
 apt update -y && apt upgrade -y
-apt-get install -y apt-transport-https
-apt-get install -y software-properties-common wget
+apt install -y apt-transport-https
+apt install -y software-properties-common wget
 wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -
 apt install gnupg2
 wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -
