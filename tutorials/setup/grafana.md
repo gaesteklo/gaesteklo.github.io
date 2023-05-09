@@ -1,6 +1,4 @@
-# Grafana
 
-To set up grafana, we will use the official grafana docker image. We will also use a docker volume to store the data and configuration files.
 
 ```bash
 apt update -y && apt upgrade -y
