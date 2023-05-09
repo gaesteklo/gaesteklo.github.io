@@ -1,6 +1,6 @@
 # Setup docker swarm
 
-First, [install docker](./setup/docker.md)
+First, [install docker](./docker.md)
 
 Then, run the following command, to enable swarm mode:
 ```bash
