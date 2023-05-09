@@ -2,10 +2,7 @@
 
 ```bash
 apt update -y && apt upgrade -y
-apt install -y apt-transport-https
-apt install -y software-properties-common wget
-wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -
-apt install gnupg2
+apt install -y apt-transport-https software-properties-common wget gnupg2
 wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -
 echo "deb https://packages.grafana.com/enterprise/deb stable main" | tee -a /etc/apt/sources.list.d/grafana.list
 apt update -y
