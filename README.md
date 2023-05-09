@@ -6,8 +6,8 @@
 Index for everything (maybe)
 
 # Docker
-[Docker Install](/tutorials/setup/docker.md)
-[Docker Swarm](/tutorials/setup/docker-swarm.md)
+- [Docker Install](/tutorials/setup/docker.md)
+- [Docker Swarm](/tutorials/setup/docker-swarm.md)
 
 # Monitoring
-[Grafana](/tutorials/setup/grafana.md)
+- [Grafana](/tutorials/setup/grafana.md)
