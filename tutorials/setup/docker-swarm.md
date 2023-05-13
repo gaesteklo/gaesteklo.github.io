@@ -1,12 +1,14 @@
-# Setup docker swarm
+# Setup docker swarm "manager"
 
-First, [install docker](./docker.md)
+First, [install docker](./docker.md) on the portainer server. This will be the "agent manager".
 
 Then, run the following command, to enable swarm mode:
 ```bash
 docker swarm init
 ```
 This will run your current docker both as manager and worker node by default. You can connect other docker environments as workers (Documentation not written yet).
+
+Then [install the portainer](./portainer.md).
 
 # Setup portainer agent
 
