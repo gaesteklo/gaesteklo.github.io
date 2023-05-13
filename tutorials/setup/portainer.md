@@ -45,7 +45,12 @@ volumes:
 END
 ```
 
-Then run `docker compose up -d`. This will run the `docker-compose.yml` and updated all the containers if they are not up to date. 
+Then run following command:
+```bash
+docker compose up -d
+``` 
+
+This will run the `docker-compose.yml` and updated all the containers if they are not up to date. 
 So in order to update portainer just run `docker compose up -d` again.
 
 Now you should be able to connect to the portainer with the specified port `http://<ip_of_you_server>:9000`. 
