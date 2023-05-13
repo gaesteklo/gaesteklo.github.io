@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker swarm init
+
 docker network create \
 --driver overlay \
   portainer_agent_network
