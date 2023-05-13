@@ -8,6 +8,7 @@ Index for everything (maybe)
 # Docker
 - [Docker Install](/tutorials/setup/docker.md)
 - [Docker Swarm](/tutorials/setup/docker-swarm.md)
+- [Portainer Install](/tutorials/setup/portainer.md)
 
 # Monitoring
 - [Grafana](/tutorials/setup/grafana.md)
