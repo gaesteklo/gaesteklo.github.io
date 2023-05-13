@@ -1,7 +1,15 @@
 #!/bin/bash
 
 # Install docker
-bash <(curl -fsSL https://get.docker.com -o get-docker.sh)
+hasCurl=$(which curl)
+
+if [ ! -z "${hasCurl}" ] 
+then
+  bash <(curl -fsSL https://get.docker.com -o get-docker.sh)
+else
+  wget -q -O - https://get.docker.com -o get-docker.sh | bash
+fi
+
 
 # Prepare docker compose for portainer
 tee -a docker-compose.yml << END
