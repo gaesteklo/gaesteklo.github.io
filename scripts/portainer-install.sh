@@ -13,7 +13,6 @@ fi
 
 # Prepare docker compose for portainer
 tee -a docker-compose.yml << END
-
 version: "3.7"
 services:
   portainer:
