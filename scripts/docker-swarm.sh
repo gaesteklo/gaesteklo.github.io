@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Install docker
+hasCurl=$(which curl)
+
+if [ ! -z "${hasCurl}" ] 
+then
+  bash <(curl -fsSL https://get.docker.com -o get-docker.sh)
+else
+  wget -q -O - https://get.docker.com -o get-docker.sh | bash
+fi
+
 docker swarm init
 
 docker network create \
