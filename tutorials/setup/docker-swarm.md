@@ -29,5 +29,19 @@ docker service create \
   --constraint 'node.platform.os == linux' \
   --mount type=bind,src=//var/run/docker.sock,dst=/var/run/docker.sock \
   --mount type=bind,src=//var/lib/docker/volumes,dst=/var/lib/docker/volumes \
-  portainer/agent:2.18.2
+  portainer/agent:latest
 ```
+
+Convenience Script:
+
+wget:
+```bash
+wget -q -O - https://raw.githubusercontent.com/gaesteklo/gaesteklo.github.io/main/scripts/docker-swarm.sh | bash
+```
+
+curl:
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/gaesteklo/gaesteklo.github.io/main/scripts/docker-swarm.sh)
+```
+
+    ATTENTION: Make sure what you are executing by looking at this file first. Don't just execute untrusted code!
