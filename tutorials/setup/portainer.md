@@ -55,7 +55,8 @@ Now you should be able to connect to the portainer with the specified port `http
 To make it more easy for just run this command:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/gaesteklo/gaesteklo.github.io/main/scripts/portainer-install.sh)
+bash \
+    <(curl -fsSL https://raw.githubusercontent.com/gaesteklo/gaesteklo.github.io/main/scripts/portainer-install.sh)
 ```
 
 This command will install docker and portainer all in one command.
