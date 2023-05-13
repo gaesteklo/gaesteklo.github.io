@@ -26,7 +26,7 @@ volumes:
 For ease of use copy paste this command:
 
 ```bash
-tee -a docker-compose.yml << END
+tee docker-compose.yml << END
 version: "3.7"
 services:
   portainer:
