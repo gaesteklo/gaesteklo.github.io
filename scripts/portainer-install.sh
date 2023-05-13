@@ -13,18 +13,22 @@ fi
 
 # Prepare docker compose for portainer
 tee -a docker-compose.yml << END
-version: "3"
+
+version: "3.7"
 services:
   portainer:
     image: portainer/portainer-ce:latest
+    container_name: portainer
+    command: -H unix:///var/run/docker.sock
     ports:
-      - 9443:9443
-      volumes:
-        - data:/data
-        - /var/run/docker.sock:/var/run/docker.sock
-    restart: unless-stopped
+      - "9000:9000"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "portainer_data:/data"
+    restart: always
+
 volumes:
-  data:
+  portainer_data:
 END
 
 # Start portainer
