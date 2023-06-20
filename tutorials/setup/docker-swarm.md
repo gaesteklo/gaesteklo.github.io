@@ -12,10 +12,15 @@ Then [install the portainer](./portainer.md).
 
 # Setup portainer agent
 
-Init docker swarm do indicate that this docker machine is also in a swarm.
+Use
 ```bash
 docker swarm init
 ```
+if you want to **create a new manager node** or
+```bash
+docker swarm join
+```
+to join an existing swarm.
 
 Create the network:
 ```bash
