@@ -15,3 +15,6 @@ Index for everything (maybe)
 
 # Monitoring
 - [Grafana](/tutorials/setup/grafana.md)
+
+# VPN
+- [Wireguard](/tutorials/configuration/wireguard.md)
