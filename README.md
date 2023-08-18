@@ -18,3 +18,6 @@ Index for everything (maybe)
 
 # VPN
 - [Wireguard](/tutorials/configuration/wireguard.md)
+
+# Auth
+- [LDAP](/tutorials/setup/ldap.md)
