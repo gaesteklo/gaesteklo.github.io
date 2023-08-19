@@ -1,4 +1,4 @@
-# With Docker
+# With Docker (untested !!!)
 
 [Docker image](https://hub.docker.com/r/bitnami/openldap)
 
