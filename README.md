@@ -20,4 +20,5 @@ Index for everything (maybe)
 - [Wireguard](/tutorials/configuration/wireguard.md)
 
 # Auth
+- [authentik](/tutorials/setup/authentik.md)
 - [LDAP](/tutorials/setup/ldap.md)
