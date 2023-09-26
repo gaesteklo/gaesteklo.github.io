@@ -37,3 +37,29 @@ notifications
 workflow
 ```
 You can create one [here](https://github.com/settings/tokens/new).
+
+# Docker compose
+
+```yml
+version: '3.8'
+
+services:
+  github-runner:
+    image: myoung34/github-runner:latest
+    container_name: runner
+    environment:
+      - RUNNER_SCOPE=org
+      - ORG_NAME=${ORG_NAME}
+      - ACCESS_TOKEN=${ACCESS_TOKEN}
+      - RUNNER_NAME=${RUNNER_NAME}
+      - LABELS=linux,x64
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+```
+
+```dotenv
+ACCESS_TOKEN=ghp_yourtokentokentokentokentokentokento
+ORG_NAME=your_org_name
+RUNNER_NAME=your_runner_name
+```
