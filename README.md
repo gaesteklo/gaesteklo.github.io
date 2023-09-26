@@ -21,4 +21,7 @@ Index for everything (maybe)
 
 # Auth
 - [authentik](/tutorials/setup/authentik.md)
-- [LDAP](/tutorials/setup/ldap.md)
+- [LDAP (untested)](/tutorials/setup/ldap.md)
+
+# Automation
+- [n8n](/tutorials/setup/n8n.md)
