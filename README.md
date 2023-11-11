@@ -10,8 +10,9 @@ Index for everything (maybe)
 - [Docker Swarm](/tutorials/setup/docker-swarm.md)
 - [Portainer Install](/tutorials/setup/portainer.md)
 
-# Github Actions
-- [Self-hosted runners](/tutorials/setup/github-runner.md)
+# VCS
+- [GitHub Actions - Self-hosted runners](/tutorials/setup/github-runner.md)
+- [Forgejo - Self-hosted VCS similar to GitHub](/tutorials/setup/forgejo.md)
 
 # Monitoring
 - [Grafana](/tutorials/setup/grafana.md)
