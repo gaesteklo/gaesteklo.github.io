@@ -29,15 +29,13 @@ CHAT_ID=<chat_id> # https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff
 add label to existing compose.yml
 
 ```
-version: '3.8'
-
 services:
   web:
     image: nginx:latest
     ports:
       - "80:80"
     labels:
-      com.centurylinklabs.watchtower.enable: "true"
+      com.centurylinklabs.watchtower.enable: "true" # this container gets checked for available updates
 
   db:
     image: postgres:13
