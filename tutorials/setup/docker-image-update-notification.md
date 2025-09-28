@@ -5,6 +5,8 @@ Sends notifications for available updated container images.
 Configured like this, it checks all containers running on the same docker host, regardless of set labels.
 This example uses Telegram.
 
+<!-- {% raw %} ## ignore this, necessary to render template correctly -->
+
 compose.yml
 
 ```yaml
@@ -38,6 +40,9 @@ services:
         Platform: `{{ .Entry.Manifest.Platform }}`
     restart: always
 ```
+<!-- {% endraw %} ## ignore this, necessary to render template correctly -->
+
+
 
 .env
 
