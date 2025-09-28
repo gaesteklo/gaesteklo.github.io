@@ -1,9 +1,9 @@
 # DIUN Monitoring
-See documentation here: https://crazymax.dev/diun/
+See documentation [here](https://crazymax.dev/diun/).
 
 Sends notifications for available updated container images.
 Configured like this, it checks all containers running on the same docker host, regardless of set labels.
-sThis example uses Telegram.
+This example uses Telegram.
 
 compose.yml
 
