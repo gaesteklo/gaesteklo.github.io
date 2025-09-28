@@ -16,7 +16,7 @@ Index for everything (maybe)
 
 # Monitoring
 - [Grafana](/tutorials/setup/grafana.md)
-- [Watchtower](/tutorials/setup/watchtower-monitoring.md)
+- [DIUN Monitoring](/tutorials/setup/docker-image-update-notification.md)
 
 # VPN
 - [Wireguard](/tutorials/configuration/wireguard.md)
