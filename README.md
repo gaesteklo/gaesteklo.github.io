@@ -16,7 +16,7 @@ Index for everything (maybe)
 
 # Monitoring
 - [Grafana](/tutorials/setup/grafana.md)
-- [DIUN Monitoring](/tutorials/setup/docker-image-update-notification.md)
+- [DIUN - Docker Image Update Notifier](/tutorials/setup/docker-image-update-notification.md)
 
 # VPN
 - [OPNsense Wireguard](/tutorials/configuration/opnsense-wireguard.md)
