@@ -19,7 +19,7 @@ Index for everything (maybe)
 - [DIUN Monitoring](/tutorials/setup/docker-image-update-notification.md)
 
 # VPN
-- [Wireguard](/tutorials/configuration/wireguard.md)
+- [OPNsense Wireguard](/tutorials/configuration/opnsense-wireguard.md)
 
 # Auth
 - [authentik](/tutorials/setup/authentik.md)
