@@ -6,7 +6,6 @@ Note: If you want to install portainer agents refer to the [docker swarm install
 
 Then create a `docker-compose.yml` with the following content:
 ```yml
-version: "3.7"
 services:
   portainer:
     image: portainer/portainer-ce:latest
@@ -27,7 +26,6 @@ For ease of use copy paste this command:
 
 ```bash
 tee docker-compose.yml << END
-version: "3.7"
 services:
   portainer:
     image: portainer/portainer-ce:latest

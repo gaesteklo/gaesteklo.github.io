@@ -3,8 +3,6 @@
 [Docker image](https://hub.docker.com/r/bitnami/openldap)
 
 ```yaml
-version: '2'
-
 services:
   openldap:
     image: docker.io/bitnami/openldap:2.6

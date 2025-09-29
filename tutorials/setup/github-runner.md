@@ -41,8 +41,6 @@ You can create one [here](https://github.com/settings/tokens/new).
 # Docker compose
 
 ```yml
-version: '3.8'
-
 services:
   github-runner:
     image: myoung34/github-runner:latest

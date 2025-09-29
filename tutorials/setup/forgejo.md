@@ -3,8 +3,6 @@
 This will set up a simple Forgejo instance, assuming that you'll use Sqlite for storing data. It won't use the Forgejo runner, since the Gitea runner is simpler to set up (or at least was more easy to figure out).
 
 ```yml
-version: '3'
-
 networks:
   forgejo:
     external: false

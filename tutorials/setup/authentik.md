@@ -11,9 +11,6 @@ COMPOSE_PORT_HTTPS=8401 # defaults to 9443 if not set, which is also the same as
 
 **Docker compose**
 ```yaml
----
-version: "3.4"
-
 services:
   postgresql:
     image: docker.io/library/postgres:12-alpine
