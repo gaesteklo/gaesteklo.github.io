@@ -51,3 +51,8 @@ HOSTNAME=<hostname> # only used in the notification template
 BOT_TOKEN=<bot_token> # https://core.telegram.org/bots/tutorial#obtain-your-bot-token or https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#create-a-telegram-bot-and-get-a-bot-token
 CHAT_ID=<chat_id> # https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#get-chat-id-for-a-private-chat
 ```
+
+To test if the configuration work:
+```bash
+docker exec <container_name> diun notif test
+```
