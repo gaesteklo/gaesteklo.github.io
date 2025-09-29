@@ -52,7 +52,7 @@ BOT_TOKEN=<bot_token> # https://core.telegram.org/bots/tutorial#obtain-your-bot-
 CHAT_ID=<chat_id> # https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#get-chat-id-for-a-private-chat
 ```
 
-To test if the configuration work:
+To test if the configuration works, run the following command:
 ```bash
 docker exec <container_name> diun notif test
 ```
