@@ -3,6 +3,6 @@ Go to this site: [Install Docker Engine on Debian](https://docs.docker.com/engin
 
 TLDR:
 ```
- curl -fsSL https://get.docker.com -o get-docker.sh
- sudo sh ./get-docker.sh 
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh
 ```
